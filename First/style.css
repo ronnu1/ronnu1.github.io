@@ -19,7 +19,13 @@ html, body{
 }
 
 body{
-  background: yellow;
+    background-image: url('taust.png');
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    resize: both;
+    overflow: scroll;
+    background-repeat: no-repeat;
   font-family: Arial;
 }
 
@@ -29,6 +35,7 @@ svg {
     width: 960px;
     height: 300px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .text-copy {
@@ -41,27 +48,27 @@ svg {
 }
 
 .text-copy:nth-child(1){
-	stroke: #4D163D;
+	stroke: #ffffff;
 	animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-	stroke: #840037;
+	stroke: #cdcdcd;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #BD0034;
+	stroke: #656565;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #BD0034;
+	stroke: #33333388;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #FDB731;
+	stroke: #eaeaea;
 	animation-delay: -5s;
 }
 
