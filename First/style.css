@@ -8,67 +8,23 @@ body {
       background-repeat: no-repeat;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-html, body{
-  height: 100%;
-  font-weight: 800;
-}
-
-body{
-    background-image: url('taust.png');
-    background-size: cover;
-    width: 160px;
-    height: 160px;
-    resize: both;
-    overflow: scroll;
-    background-repeat: no-repeat;
-  font-family: Arial;
-}
-
-svg {
-    display: block;
-    font: 10.5em 'Montserrat';
-    width: 960px;
-    height: 300px;
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
-    text-align: center;
-}
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
 
-.text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
-
-.text-copy:nth-child(1){
-	stroke: #ffffff;
-	animation-delay: -1;
-}
-
-.text-copy:nth-child(2){
-	stroke: #cdcdcd;
-	animation-delay: -2s;
-}
-
-.text-copy:nth-child(3){
-	stroke: #656565;
-	animation-delay: -3s;
-}
-
-.text-copy:nth-child(4){
-	stroke: #33333388;
-	animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-	stroke: #eaeaea;
-	animation-delay: -5s;
-}
-
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
-}
+  .center{
+    position: relative;
+    left: 450px;
+    top: 100px;
+  }
