@@ -3,10 +3,14 @@ body {
       background-color: black;
       background-size: cover;
       width: 400px;
-      height: 3240px;
+      height: 1500px;
       resize: both;
       overflow: scroll;
       background-repeat: no-repeat;
+}
+
+.reverse{
+  mix-blend-mode: revert;
 }
 
   .center{
@@ -28,6 +32,80 @@ body {
 
 .content{
   position: relative;
-  left: 50px;
+  left: 2px;
   top: 200px;
+}
+
+.content2{
+  position: relative;
+  left: 370px;
+  top: -270px;
+}
+
+.content3{
+  position: relative;
+  left: 680px;
+  top: -750px;
+}
+
+.content4{
+  position: relative;
+  left: 1030px;
+  top: -1230px;
+}
+
+.content5{
+  position: relative;
+  left: 2px;
+  top: -1350px;
+}
+
+.content6{
+  position: relative;
+  left: 370px;
+  top: -1830px;
+}
+
+.content7{
+  position: relative;
+  left: 660px;
+  top: -2320px;
+}
+
+.content8{
+  position: relative;
+  left: 1050px;
+  top: -2800px;
+}
+
+.content9{
+  position: relative;
+  left: -20px;
+  top: -2910px;
+}
+
+.content10{
+  position: relative;
+  left: 280px;
+  top: -3410px;
+}
+
+.content11{
+  position: relative;
+  left: 670px;
+  top: -3910px;
+}
+
+.content12{
+  position: relative;
+  left: 1020px;
+  top: -4410px;
+}
+
+@media (max-width: 400px) {
+
+  .column > div{
+    position: static;
+  }
+
 }
